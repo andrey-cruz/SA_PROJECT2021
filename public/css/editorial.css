@@ -70,6 +70,26 @@ table{
     padding: 6px;
 }
 
+h10{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h11{
+    font-size: large;
+    text-align: center;
+}
+
+h12{
+    font-size: small;
+    text-align: center;
+}
+
+
+img{
+    width: 500px;
+}
+
 .container{
     border: 1px solid rgb(17, 41, 17);
     border-radius: 0.35em;
@@ -86,7 +106,7 @@ table{
 }
 
 .col{
-    /*altura provisoria*/
+    /*altura provisÃ³ria*/
     height: 500px;
     padding: 24px;
     width: 50%;
