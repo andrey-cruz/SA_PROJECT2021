@@ -8,7 +8,7 @@ header{
     color: rgb(18, 37, 15);
     padding: 16px;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 160%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -42,6 +42,34 @@ nav li > a:hover{
     border-bottom: 2px solid rgb(80, 109, 26);
 }
 
+input{
+    width: 300%;
+    text-align: center;
+    border: 2px solid rgb(51, 51, 51);  
+    border-radius: 10px;
+    transform: translate(-34%, -66%);
+}
+button{
+    background-color: darkseagreen;
+    border: 2px solid rgb(80, 109, 26);  
+    width: 350px;
+    border-radius: 10px;
+    padding: 6px;
+    
+}
+
+#mais{display: none}
+#mais1{display: none}
+#mais2{display: none}
+#mais3{display: none}
+
+table{
+
+    border-radius: 10px;
+    width: 5000px;
+    padding: 6px;
+}
+
 .container{
     border: 1px solid rgb(17, 41, 17);
     border-radius: 0.35em;
@@ -58,7 +86,7 @@ nav li > a:hover{
 }
 
 .col{
-    /*altura provisória*/
+    /*altura provisoria*/
     height: 500px;
     padding: 24px;
     width: 50%;
@@ -100,7 +128,6 @@ footer li{
     }
 
     nav ul{
-        display: block;
-    }
+        display: block;}
     
-}
+    }
