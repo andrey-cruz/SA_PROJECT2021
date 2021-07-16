@@ -87,7 +87,17 @@ h12{
 
 
 img{
+    
     width: 500px;
+}
+.container figure.calculadora{
+    width: 240px;
+    height: 240px;
+    
+}
+.container figure.calculadora img{
+    position: absolute;
+    margin-left: -6.8%;
 }
 
 .container{

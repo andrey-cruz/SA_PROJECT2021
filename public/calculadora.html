@@ -312,6 +312,115 @@
 
 </span>
 
+<div class="container">
+    <div class="row row-input">
+        <h1 class="h1-title">
+            Calculadora Funcional
+        </h1>
+    </div>
+
+    <div class="row row-input">
+        <button onclick="leiaMais4()" id="btnLeiaMais4">Esconder Calculadora</button>
+    </div>
+    
+       <script>
+           function leiaMais4(){
+               var pontos4= document.getElementById("pontos4");
+               var maisTexto4= document.getElementById("mais4");
+               var btnLeiaMais4= document.getElementById("btnLeiaMais4")
+    
+               if(pontos4.style.display === "inline"){
+                   pontos4.style.display = "none";
+                   maisTexto4.style.display = "inline";
+                   btnLeiaMais4.innerHTML="Esconder Calculadora";
+               }else{
+                   pontos4.style.display = "inline";
+                   maisTexto4.style.display = "none";
+                   btnLeiaMais4.innerHTML="Ver calculadora";
+               }
+           }
+       </script>
+<span id="pontos4">...</span>    <span id="mais4">
+
+    <div class="row row-input">
+        <img src="/img/calculadora/calculadora/calculadora2.png" alt=Calculadora usemap="#calcmap">
+        <map name='calcmap'>
+            <area shape="rect" coords="90,425,165,360" alt="zero" onClick="zero()">
+            <area shape="rect" coords="90,350,165,295" alt="um" onClick="um()">
+            <area shape="rect" coords="172,350,247,295" alt="dois" onClick="dois()">
+            <area shape="rect" coords="252,350,327,295" alt="tres" onClick="tres()">
+            <area shape="rect" coords="90,280,165,225" alt="quatro" onClick="quatro()">
+            <area shape="rect" coords="172,280,247,225" alt="cinco" onClick="cinco()">
+            <area shape="rect" coords="252,280,327,225" alt="seis" onClick="seis()">
+            <area shape="rect" coords="90,210,165,155" alt="sete" onClick="sete()">
+            <area shape="rect" coords="172,210,247,155" alt="oito" onClick="oito()">
+            <area shape="rect" coords="252,210,327,155" alt="nove" onClick="nove()">
+
+            <area shape="rect" coords="172,425,247,360" alt="," onClick="virgula()">
+            <area shape="rect" coords="252,425,327,360" alt="+" onClick="mais()">
+            <area shape="rect" coords="332,420,407,367" alt="=" onClick="igual()">
+            <area shape="rect" coords="332,350,407,295" alt="-" onClick="menos()">
+            <area shape="rect" coords="332,280,407,225" alt="x" onClick="vezes()">
+            <area shape="rect" coords="332,210,407,155" alt="/" onClick="divisao()">
+        </map>
+        
+    </div>
+    
+    <script>
+        function zero(){
+    document.calculator.ans.value+='0';
+   }
+   function um(){
+    document.calculator.ans.value+='1';
+   }
+   function dois(){
+    document.calculator.ans.value+='2';
+   }
+   function tres(){
+    document.calculator.ans.value+='3';
+   }
+   function quatro(){
+    document.calculator.ans.value+='4';
+   }
+   function cinco(){
+    document.calculator.ans.value+='5';
+   }
+   function seis(){
+    document.calculator.ans.value+='6';
+   }
+   function sete(){
+    document.calculator.ans.value+='7';
+   }
+   function oito(){
+    document.calculator.ans.value+='8';
+   }
+   function nove(){
+    document.calculator.ans.value+='9';
+   }
+   function virgula(){
+    document.calculator.ans.value+='.';
+   }
+   function mais(){
+    document.calculator.ans.value+='+';
+   }
+   function igual(){
+    document.calculator.ans.value=eval(document.calculator.ans.value);
+   }
+   function menos(){
+    document.calculator.ans.value+='-';
+   }
+   function vezes(){
+    document.calculator.ans.value+='*';
+   }
+   function divisao(){
+    document.calculator.ans.value+='/';
+   }
+    </script>
+</div>
+
+<form name="calculator" >
+    
+    <input type="textfield" name="ans" value="">
 
     <footer>
         <ul>
