@@ -1,34 +1,28 @@
 # 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaFX](https://img.shields.io/badge/javafx-%23FF0000.svg?style=for-the-badge&logo=javafx&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+<div align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" height="50" alt="html5 logo"  />
+  <img width="25" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" height="50" alt="css3 logo"  />
+  <img width="25" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" height="50" alt="javascript logo"  />
+</div>
+
+###
 
 ## Descrição
-O InShelf é um software desenvolvido para o gerenciamento de estoque de uma livraria. O sistema permite o cadastro, gerenciamento e visualização de livros, além de contar com uma interface para a gestão de funcionários. Com uma tela de relatórios gerada a partir do banco de dados, o sistema oferece insights importantes como status de estoque e dados financeiros.
+O SA_PROJECT2021 é um projeto desenvolvido para o aplicar os conhecimentos desenvolvidos durante o ano de 2021. O sistema apresenta conceitos de termodinâmica, aplicação dos conceitos no dia-a-dia, além de contar calculadoras, que auxiliam nos cálculos desta conceituada área da física. Além disso, possui um vídeo do desenvolvimento e teste da construção de uma máquina a vapor.
 
 ## Objetivo
 Este projeto foi desenvolvido com objetivo de servir como estudo prático abrangendo todas matérias do ensino médio técnico em 2021/2.
 
-## Funcionalidades
-### Gerenciamento de livros
-- [x] Adicionar, remover e atualizar livros no banco de dados.
-- [x] Controle de estoque, permitindo adicionar e remover unidades de livros no inventário.
-
-### Gerenciamento de Funcionários
-- [x] Adicionar, remover e atualizar informações de funcionários.
-
-### Relatórios
-- [x] **Financeiro:** valor total
-- [x] **Produtos:** produtos unicos e quantidade total
-- [x] **Funcionários:** quantidade total
-
 ## Tecnologias
-- **Linguagem:** Java
-- **Interface Gráfica:** JavaFX
-- **Banco de Dados:** MySQL
-- **Ferramentas de Prototipação:** Figma
+- HTML
+- CSS
+- Javascript
 
 ## Contribuidores
 * Andrey Cruz 
-* João Victor Carniel
-* Kamily Cúrcio
-* Miguel Kirchhof
-* João Pedro Braga
+* João Victor Lopes
+* Mateus Dalla Silveira
+* Marcelo Buehring
+* Luiz Gomez
